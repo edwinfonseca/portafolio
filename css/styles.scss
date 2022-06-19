@@ -205,10 +205,24 @@ h4{
         }
     }
     &__three{
+        // background: url("/assets/imgbacground1-transp.png") no-repeat;
+        // background-size: cover;
+        // background-position: center;
+        &-background{
+            position: absolute;
+            
+            z-index: -1;
+        }
         flex-direction: column;
-        // &-container{
-        //     display: flex;
-        // }
+        h2{
+            text-align: center;
+        }
+        &-container{
+             display: flex;
+             img{
+                height: 235px;
+             }
+        }
     }
     &__four{
         flex-direction: column;
