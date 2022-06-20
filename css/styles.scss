@@ -143,7 +143,7 @@ h4{
 .section {
     display: flex;
     flex-direction: row;
-    margin: 40px 55px;
+    padding: 25px 60px;
     &__one{
         
         img{
@@ -205,33 +205,59 @@ h4{
         }
     }
     &__three{
-        // background: url("/assets/imgbacground1-transp.png") no-repeat;
+        // background: url("/assets/Hero-843541146-dark.jpg") no-repeat;
         // background-size: cover;
         // background-position: center;
         &-background{
             position: absolute;
-            
+            width: 100%;
+            left: 0;
+            height: 450px;
             z-index: -1;
+            opacity:15%;
+            transition: all 2s ease .5s;
         }
         flex-direction: column;
         h2{
+            margin-top: 30px;
             text-align: center;
+        }
+        ul{
+            margin-top: 30px;
+            li{
+                margin: 5px 0;
+            }
         }
         &-container{
              display: flex;
              img{
-                height: 235px;
+                height: 100%;
              }
         }
     }
     &__four{
         flex-direction: column;
+        h2{
+            text-align: center;
+        }
         &-container{
             display: flex;
         }
     }
     &__five{
         flex-direction: column;
+        h2{
+            text-align: center;
+        }
+        &-container{
+            display: flex;
+        }
+    }
+    &__six{
+        flex-direction: column;
+        h2{
+            text-align: center;
+        }
         &-container{
             display: flex;
         }
