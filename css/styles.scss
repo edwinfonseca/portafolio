@@ -28,7 +28,6 @@ body{
 }
 p{
     font-family: $font-familytext;
-    padding: 10px;
 }
 h2{
     font-size: 40px;
@@ -56,25 +55,6 @@ h4{
     position: sticky;
     top: 0px;
     box-shadow: 0px 1px 3px #80f8f8;
-}
-.logo{
-    display: flex;
-    flex-direction: row wrap;
-    align-items: center;
-    padding: 5px;
-    text-shadow: black 1px -1px 10px,0 0 22px #80f8f8;
-    line-height: 100px;
-}
-.logo h1{
-    color: white;
-    font-style: italic;
-    text-transform: uppercase;
-}
-.logo img{
-    border-radius: 50px;
-    margin-right: 10px;
-    box-shadow: 4px 4px 4px #e29864;
-    width: 85px;
 }
 .menu{
     /*display: none;*/
@@ -241,12 +221,28 @@ h4{
             text-align: center;
         }
         &-container{
-            display: flex;
+            align-items: center;
+            .logo-Uptc{
+                text-align: center;
+                margin: 10px 0;
+                img{
+                    width: 35%;
+                }
+            }
+            .logo-sena{
+                text-align: center;
+                img{
+                    width: 24%;
+                }
+            }
         }
     }
     &__five{
         flex-direction: column;
         h2{
+            text-align: center;
+        }
+        p{
             text-align: center;
         }
         &-container{
@@ -270,4 +266,7 @@ footer{
     justify-content: space-around;
     border-top: 1px solid white;
     padding: 10px;
+    .social-icons{
+        
+    }
 }

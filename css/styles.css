@@ -26,7 +26,6 @@ body {
 
 p {
   font-family: "Amaranth", sans-serif;
-  padding: 10px;
 }
 
 h2 {
@@ -69,36 +68,6 @@ h4 {
   top: 0px;
   -webkit-box-shadow: 0px 1px 3px #80f8f8;
           box-shadow: 0px 1px 3px #80f8f8;
-}
-
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row wrap;
-          flex-direction: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5px;
-  text-shadow: black 1px -1px 10px,0 0 22px #80f8f8;
-  line-height: 100px;
-}
-
-.logo h1 {
-  color: white;
-  font-style: italic;
-  text-transform: uppercase;
-}
-
-.logo img {
-  border-radius: 50px;
-  margin-right: 10px;
-  -webkit-box-shadow: 4px 4px 4px #e29864;
-          box-shadow: 4px 4px 4px #e29864;
-  width: 85px;
 }
 
 .menu {
@@ -318,9 +287,26 @@ h4 {
 }
 
 .section__four-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__four-container .logo-Uptc {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.section__four-container .logo-Uptc img {
+  width: 35%;
+}
+
+.section__four-container .logo-sena {
+  text-align: center;
+}
+
+.section__four-container .logo-sena img {
+  width: 24%;
 }
 
 .section__five {
@@ -331,6 +317,10 @@ h4 {
 }
 
 .section__five h2 {
+  text-align: center;
+}
+
+.section__five p {
   text-align: center;
 }
 
