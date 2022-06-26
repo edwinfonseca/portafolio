@@ -19,6 +19,10 @@
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: #000000e6;
   color: white;
