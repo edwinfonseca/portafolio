@@ -1,4 +1,16 @@
    
+    var fullImgBox = document.getElementById("full-imgBox");
+    var fullImg = document.getElementById("full-img");
+
+
+    function closeImg(){
+        fullImgBox.style.display = "none";
+    }
+    
+    
+    
+    
+    
     // var read_ingles=0, lire_frances=0, leer_espanol=0;
     // var write_ingles=0, ecrire_frances=0, escribir_espanol=0;
     // var speak_ingles=0, parler_frances=0, hablar_espanol=0;
