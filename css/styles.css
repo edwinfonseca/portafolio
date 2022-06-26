@@ -477,4 +477,8 @@ footer .social-icons :hover {
   text-align: center;
   padding: 10px;
 }
+
+.contacto img {
+  width: 50%;
+}
 /*# sourceMappingURL=styles.css.map */
