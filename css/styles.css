@@ -325,9 +325,19 @@ h4 {
 
 .section__four-container .logo-sena {
   text-align: center;
+  margin: 10px 0;
 }
 
 .section__four-container .logo-sena img {
+  width: 20%;
+}
+
+.section__four-container .logo-udemy {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.section__four-container .logo-udemy img {
   width: 24%;
 }
 
