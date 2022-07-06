@@ -47,6 +47,9 @@
   .header label {
     border: none;
   }
+  .btns {
+    text-align: center;
+  }
   .section {
     display: -webkit-box;
     display: -ms-flexbox;
