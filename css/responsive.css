@@ -87,6 +87,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contacto img {
+    display: none;
+  }
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
