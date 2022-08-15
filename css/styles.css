@@ -504,6 +504,7 @@ footer .social-icons :hover {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  background: #353a4917;
 }
 
 .portafolio__container .btn-ver {
