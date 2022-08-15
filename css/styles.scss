@@ -327,12 +327,18 @@ footer{
 
 // *Portafolio page
 .portafolio {
-    h2{
+    h2,h4{
         text-align: center;
     }
     .img-box{
         height: 500px;
         overflow: auto;
+    }
+    .box-imgotras{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
     }
     .full-img{
         width: 100%;
@@ -362,6 +368,25 @@ footer{
             width: 100%;
             cursor: pointer;
             transition: all 300ms;
+        }
+        .box-item{
+            justify-content: center;
+            text-align: center;
+        }
+        .btn-ver{
+            padding: 10px;
+            margin: 10px 0;
+            a{
+                border: 1px solid #353a49;
+                padding: 10px 30px;
+                box-shadow:1px 1px 2px #80f8f8;
+                font-family: $font-family2;
+                color: #80f8f8;
+                border-radius: 10px;
+            }:hover{
+                background: #80f8f88a;
+                color: white;
+            }
         }
         // :hover{
         //     transform: scale(1.01);
