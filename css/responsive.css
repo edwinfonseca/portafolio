@@ -75,6 +75,9 @@
   .section__one img {
     width: 250px;
   }
+  .section__two div h4 {
+    text-align: center;
+  }
   .section__three-container img {
     display: none;
   }
