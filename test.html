@@ -1,0 +1,25 @@
+<div id="container-popup">
+    <a id="enlace" href="" target="_blank">
+      <img id="imagen" src="">
+    </a>
+    </div>
+    
+    <script>
+    (function($){
+    var imagenes = [
+      {link: "https://www.salondeauville.com/barber-shop-montreal/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/02/Pop_up_Deauville_Masculine.png"},
+      {link: "https://www.salondeauville.com/manicure-pedicure-care/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/02/Mani-Pedi-Promo_popup_2.png"},
+      {link: "https://www.salondeauville.com/semi-permanent-makeup/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/03/Semi-permanent-makeup-Montreal.jpg"},
+      {link: "https://www.salondeauville.com/promotions/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/03/MICRO-PROMO-WEBSITE-EN-salondeauville.png"},
+      {link: "https://www.salondeauville.com/laser-hair-removal/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/03/PROMO-LASER-HAIR-REMOVAL-salondeauville.png"},
+      {link: "https://www.salondeauville.com/hydrafacial/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/03/oxygen-facial_salondeauville.png"},
+      {link: "https://www.salondeauville.com/elos-machine/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/03/laser-IPL_Website_EN-salondeauville.png"},
+      {link: "https://www.salondeauville.com/promotions/", ruta: "https://montrealhairsalon.com/wp-content/uploads/2023/03/BASIC-SPRAY-TAN-salondeauville.png"},
+    ];
+            var indiceAleatorio = Math.floor(Math.random() * imagenes.length);
+      var imagenAleatoria = imagenes[indiceAleatorio];
+      $("#imagen").attr("src", imagenAleatoria.ruta);
+      $("#enlace").attr("href", imagenAleatoria.link);
+            })( jQuery );
+    
+    </script>
